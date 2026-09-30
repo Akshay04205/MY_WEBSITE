@@ -1,0 +1,33 @@
+EDIT GUIDE
+
+1. Resume:
+   Put your PDF here:
+   assets/AX_Resume.pdf
+   The website button already points to it and displays "Resume ↓".
+
+2. About:
+   Search for:
+   EDIT: Replace this paragraph...
+
+3. Experience:
+   Replace XYZ Limited and the internship description with your exact details.
+
+4. Education:
+   Update GPA/coursework if needed.
+
+5. Research:
+   Update the research status/title/description if your final paper changes.
+
+6. Skills:
+   Add/remove technologies directly in the Skills cards.
+
+7. Projects:
+   Replace project descriptions and # links with your real GitHub/demo URLs.
+
+8. Certificates:
+   Replace certificate names and # links with actual certificate URLs/files.
+
+9. Contact:
+   Replace YOUR_EMAIL and YOUR_USERNAME.
+
+Do not rename the Resume button unless you specifically want different visible text.

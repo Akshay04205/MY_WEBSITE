@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="AX — AI / ML Engineer &amp; Builder">
+  <title>AX — AI / ML Engineer &amp; Builder</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23080a0f'/%3E%3Ctext x='32' y='42' font-size='28' font-family='monospace' text-anchor='middle' fill='%238cf7d5'%3EAX%3C/text%3E%3C/svg%3E">
+  <noscript><style>.reveal{opacity:1!important;transform:none!important}</style></noscript>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&amp;family=Inter:wght@400;500;600;700;800&amp;family=Space+Grotesk:wght@700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css?v=20260929-final">
+</head>
+<body>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a class="brand" href="#home">AX<span>_</span></a>
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#research">Research</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <!-- EDIT: Put your actual PDF at assets/AX_Resume.pdf. The visible button intentionally says only "Resume ↓". -->
+      <a class="resume-btn" href="assets/AX_Resume.pdf" download>Resume ↓</a>
+      <button class="theme-btn" id="themeToggle" aria-label="Switch theme">☼</button>
+      <button class="menu-btn" id="menuToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">☰</button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#education">Education</a>
+    <a href="#research">Research</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#certificates">Certificates</a>
+    <a href="#contact">Contact</a>
+    <a class="mobile-resume" href="assets/AX_Resume.pdf" download>Resume ↓</a>
+  </div>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">AVAILABLE FOR OPPORTUNITIES</p>
+        <h1><span class="line">I TURN <em>DATA</em></span><span class="line grad">INTO ACTION.</span></h1>
+        <p class="hero-text">AI / ML Engineer &amp; Builder focused on turning data, automation and intelligent models into useful products.</p>
+        <div class="hero-actions">
+          <a class="primary-btn" href="#projects">Explore my work ↓</a>
+          <a class="ghost-btn" href="#contact">Let's talk ↗</a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal" role="img" aria-label="Animated AI system visual">
+        <div class="orbit orbit-a"></div>
+        <div class="orbit orbit-b"></div>
+        <div class="orbit orbit-c"></div>
+        <div class="core"><span>AX</span></div>
+
+        <!--
+          ORBIT TECHNOLOGIES
+          12 skills spread over the 3 rings: 5 on the OUTER ring, 4 on the MIDDLE ring, 3 on the INNER ring.
+          To add/remove a skill, edit a label below (positions are set in style.css: .tag-1 ... .tag-12).
+        -->
+        <div class="orbit-tags">
+          <span class="float-tag tag-1">AUTOMATION</span> <!-- OUTER -->
+          <span class="float-tag tag-2">AGENTIC AI</span> <!-- OUTER -->
+          <span class="float-tag tag-3">DEEP LEARNING</span> <!-- OUTER -->
+          <span class="float-tag tag-4">MACHINE LEARNING</span> <!-- OUTER -->
+          <span class="float-tag tag-5">PYTHON</span> <!-- OUTER -->
+          <span class="float-tag tag-6">LLMs</span> <!-- MIDDLE -->
+          <span class="float-tag tag-7">DJANGO</span> <!-- MIDDLE -->
+          <span class="float-tag tag-8">PANDAS</span> <!-- MIDDLE -->
+          <span class="float-tag tag-9">NLP</span> <!-- MIDDLE -->
+          <span class="float-tag tag-10">MCP</span> <!-- INNER -->
+          <span class="float-tag tag-11">SQL</span> <!-- INNER -->
+          <span class="float-tag tag-12">n8n</span> <!-- INNER -->
+        </div>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track"><span>AI • MACHINE LEARNING • DATA • AUTOMATION • LLM AGENTS • SOFTWARE • AI • MACHINE LEARNING • DATA • AUTOMATION • LLM AGENTS • SOFTWARE • AI • MACHINE LEARNING • DATA • AUTOMATION • LLM AGENTS • SOFTWARE • AI • MACHINE LEARNING • DATA • AUTOMATION • LLM AGENTS • SOFTWARE • </span><span>AI • MACHINE LEARNING • DATA • AUTOMATION • LLM AGENTS • SOFTWARE • AI • MACHINE LEARNING • DATA • AUTOMATION • LLM AGENTS • SOFTWARE • AI • MACHINE LEARNING • DATA • AUTOMATION • LLM AGENTS • SOFTWARE • AI • MACHINE LEARNING • DATA • AUTOMATION • LLM AGENTS • SOFTWARE • </span></div>
+    </div>
+
+    <section class="section content-section" id="about">
+      <div class="section-heading reveal">
+        <span class="section-number">01</span>
+        <h2>About</h2>
+      </div>
+      <!--
+        ABOUT REDESIGN
+        Problem: the previous About section was text-heavy and did not give the personal side of the portfolio enough visual space.
+        Fix: keep the original v2 section shell, but use a personal profile block on the left and compact information cards on the right.
+        Photo: add your final transparent photo later at assets/about-photo.png. The placeholder stays clean until then.
+      -->
+      <div class="about-v2 reveal">
+        <div class="about-profile">
+          <div class="about-photo">
+            <img src="assets/about-photo.png" alt="AX profile photo" onerror="this.style.display='none'; this.parentElement.classList.add('photo-placeholder');">
+            <span class="photo-placeholder-text">YOUR PHOTO</span>
+            <div class="photo-fade"></div>
+            <div class="profile-name">
+              <strong>AX</strong>
+              <span>AI / ML ENGINEER &amp; BUILDER</span>
+            </div>
+          </div>
+
+          <div class="about-profile-bottom">
+            <p>I enjoy building practical AI systems, exploring new technology and turning ideas into useful software.</p>
+            <div class="about-links">
+              <a href="https://github.com/YOUR_USERNAME" target="_blank" rel="noopener">GitHub ↗</a>
+              <a href="https://www.linkedin.com/in/YOUR_USERNAME/" target="_blank" rel="noopener">LinkedIn ↗</a>
+              <a href="assets/AX_Resume.pdf" download>Resume ↓</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-info">
+          <div class="about-info-card">
+            <span>FOCUS</span>
+            <strong>Agentic AI · ML · Automation</strong>
+          </div>
+          <div class="about-info-card">
+            <span>CURRENTLY</span>
+            <strong>Building · Researching</strong>
+          </div>
+          <div class="about-info-card">
+            <span>INTERESTS</span>
+            <strong>LLMs · Agents · MCP</strong>
+          </div>
+          <div class="about-info-card">
+            <span>APPROACH</span>
+            <strong>Learn → Build → Validate</strong>
+          </div>
+        </div>
+      </div>
+
+      <p class="about-quote reveal">I enjoy understanding how things work — then building something useful with what I learn.</p>
+    </section>
+
+    <section class="section content-section" id="experience">
+      <div class="section-heading reveal">
+        <span class="section-number">02</span>
+        <h2>Experience</h2>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item reveal">
+          <div class="timeline-date">2026 — PRESENT</div>
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <!-- EDIT: Replace company/title/description with your exact internship details. -->
+            <p class="label">AI / AUTOMATION INTERN</p>
+            <h3>XYZ Limited</h3>
+            <p class="muted">Delhi NCR / Noida · Onsite</p>
+            <p>Worked on practical AI and automation initiatives including production monitoring workflows, inventory-related automation, vendor payment reminders and sales forecasting. Built prototypes and data workflows with a focus on turning operational problems into measurable solutions.</p>
+            <div class="chips"><span>Python</span><span>n8n</span><span>Forecasting</span><span>Automation</span><span>Data</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section content-section" id="education">
+      <div class="section-heading reveal">
+        <span class="section-number">03</span>
+        <h2>Education</h2>
+      </div>
+      <article class="education-card reveal">
+        <div>
+          <p class="label">2023 — 2027</p>
+          <h3>B.Tech — Computer Science with Artificial Intelligence &amp; Machine Learning</h3>
+          <p>IIMT University · Meerut, U.P., India</p>
+        </div>
+        <div class="edu-side">
+          <span>GPA</span>
+          <strong>3.0</strong>
+        </div>
+      </article>
+      <div class="coursework reveal">
+        <span>COURSEWORK</span>
+        <p>Machine Learning · Data Science · Deep Learning · NLP · Time Series Forecasting · Data Structures · DBMS &amp; SQL · Software Engineering</p>
+      </div>
+    </section>
+
+    <section class="section content-section" id="research">
+      <div class="section-heading reveal">
+        <span class="section-number">04</span>
+        <h2>Research</h2>
+      </div>
+      <div class="research-card reveal">
+        <div class="research-top">
+          <span class="label">CURRENT RESEARCH</span>
+          <span class="status-dot">IN PROGRESS</span>
+        </div>
+        <h3>A Comparative Evaluation of LLM Agents With and Without Model Context Protocol (MCP) for Tool-Based Task Automation</h3>
+        <p>Exploring how tool-connected LLM agents behave with and without MCP, with emphasis on task execution, tool integration and automation reliability.</p>
+        <!-- EDIT (later): when your paper is ready, remove the comment marks around the button below and put your real link in href. -->
+        <!--
+        <a class="research-btn" href="PASTE_PAPER_LINK_HERE" target="_blank" rel="noopener">Read the paper ↗</a>
+        -->
+        <div class="research-flow">
+          <div>LLM</div><i>→</i><div>AGENT</div><i>→</i><div class="accent-box">MCP</div><i>→</i><div>TOOLS</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section content-section" id="skills">
+      <div class="section-heading reveal">
+        <span class="section-number">05</span>
+        <h2>Skills</h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card reveal"><span>01</span><h3>AI / ML</h3><p>Machine Learning · Deep Learning · NLP · Time Series · LLMs · AI Agents</p></div>
+        <div class="skill-card reveal"><span>02</span><h3>Programming</h3><p>Python · SQL · JavaScript · Git</p></div>
+        <div class="skill-card reveal"><span>03</span><h3>Engineering</h3><p>Django · REST APIs · Software Development · Data Pipelines</p></div>
+        <div class="skill-card reveal"><span>04</span><h3>Data</h3><p>Pandas · NumPy · Data Cleaning · Feature Engineering · Visualization</p></div>
+        <div class="skill-card reveal"><span>05</span><h3>Automation</h3><p>n8n · Workflow Automation · MCP · Tool Calling</p></div>
+        <div class="skill-card reveal"><span>06</span><h3>Workflow</h3><p>Problem Framing · Validation · Experimentation · Technical Documentation</p></div>
+      </div>
+    </section>
+
+    <section class="section content-section" id="projects">
+      <div class="section-heading reveal">
+        <span class="section-number">06</span>
+        <h2>Projects</h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card featured reveal">
+          <div class="project-index">01</div>
+          <div class="project-meta">AI / DJANGO / LLM</div>
+          <h3>ProcureAI</h3>
+          <p>AI-assisted procurement workflow prototype covering supplier offers, reverse auction, negotiation and purchase decision stages.</p>
+          <div class="chips"><span>Django</span><span>Python</span><span>LLMs</span><span>Automation</span></div>
+          <!-- EDIT: Replace with your actual repository/demo URL. -->
+          <a href="#" class="project-link">Case study ↗</a>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-index">02</div>
+          <div class="project-meta">ML / CLUSTERING</div>
+          <h3>SegmentIQ</h3>
+          <p>Customer segmentation using behavioral and spending patterns, feature engineering, clustering and business-focused insights.</p>
+          <div class="chips"><span>Python</span><span>Pandas</span><span>Clustering</span></div>
+          <a href="#" class="project-link">View project ↗</a>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-index">03</div>
+          <div class="project-meta">FORECASTING / TIME SERIES</div>
+          <h3>Forecast Engine</h3>
+          <p>Weekly sales forecasting across region, plant and product dimensions with model validation and business-oriented visual analysis.</p>
+          <div class="chips"><span>SARIMA</span><span>Prophet</span><span>Python</span></div>
+          <a href="#" class="project-link">View project ↗</a>
+        </article>
+        <article class="project-card reveal">
+          <div class="project-index">04</div>
+          <div class="project-meta">DATA / ENTITY MATCHING</div>
+          <h3>Entity Resolution Pipeline</h3>
+          <p>Pipeline for identifying matching entities across inconsistent datasets with candidate generation, matching and validation.</p>
+          <div class="chips"><span>Python</span><span>Matching</span><span>Validation</span></div>
+          <a href="#" class="project-link">View project ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section content-section" id="certificates">
+      <div class="section-heading reveal">
+        <span class="section-number">07</span>
+        <h2>Certificates</h2>
+      </div>
+      <div class="certificate-grid">
+        <!-- EDIT: Add/replace certificate details and links here. -->
+        <article class="certificate reveal"><span>2026</span><h3>AI / Machine Learning Engineer Certificate Course</h3><p>NSDC · Skill India Digital Hub · Reliance Foundation</p><a href="#" class="project-link">View certificate ↗</a></article>
+        <article class="certificate reveal"><span>2026</span><h3>AI/ML for Geodata Analytics</h3><p>ISRO · IIRS</p><a href="#" class="project-link">View certificate ↗</a></article>
+        <article class="certificate reveal"><span>2026</span><h3>GenAI Study Jam</h3><p>GDG on Campus</p><a href="#" class="project-link">View certificate ↗</a></article>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="contact-wrap">
+        <div class="contact-info reveal">
+          <p class="eyebrow">LET'S BUILD</p>
+          <h2>Have a problem<br><span>worth solving?</span></h2>
+          <p>I'm interested in AI/ML, automation and software projects that turn technical ideas into useful systems.</p>
+
+          <!-- EDIT: Replace YOUR_EMAIL@example.com in BOTH places below (the link and the text). -->
+          <div class="email-box">
+            <div>
+              <span>DIRECT EMAIL</span>
+              <strong><a id="emailText" href="mailto:YOUR_EMAIL@example.com">YOUR_EMAIL@example.com</a></strong>
+            </div>
+            <button class="copy-btn" id="copyEmail" type="button">Copy</button>
+          </div>
+
+          <div class="contact-links">
+            <!-- EDIT: Replace YOUR_USERNAME with your real usernames. -->
+            <a href="https://github.com/YOUR_USERNAME" target="_blank" rel="noopener">GitHub ↗</a>
+            <a href="https://www.linkedin.com/in/YOUR_USERNAME/" target="_blank" rel="noopener">LinkedIn ↗</a>
+            <a href="assets/AX_Resume.pdf" download>Resume ↓</a>
+          </div>
+        </div>
+
+        <!--
+          MESSAGE FORM
+          To receive messages in your email: create a free form at https://formspree.io, copy your form ID,
+          and replace YOUR_FORM_ID in the action below. Until then the form shows a "not connected" note.
+        -->
+        <form class="contact-form reveal" id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <div class="form-row">
+            <div class="field">
+              <label for="cf-name">Your name</label>
+              <input id="cf-name" name="name" type="text" placeholder="e.g. Sarah Jenkins" autocomplete="name" required>
+            </div>
+            <div class="field">
+              <label for="cf-email">Email address</label>
+              <input id="cf-email" name="email" type="email" placeholder="e.g. sarah@company.com" autocomplete="email" required>
+            </div>
+          </div>
+          <div class="field">
+            <label for="cf-message">Tell me about the project</label>
+            <textarea id="cf-message" name="message" placeholder="Hi, I saw your portfolio and would like to discuss an opportunity…" required></textarea>
+          </div>
+          <input class="form-hp" type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <button class="send-btn" type="submit">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 2 11 13"/><path d="M22 2 15 22l-4-9-9-4 20-7z"/></svg>
+            Send message
+          </button>
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>AX_</span>
+    <span>BUILT WITH CURIOSITY + CODE</span>
+    <span>© 2026</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
